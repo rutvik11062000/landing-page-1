@@ -15,6 +15,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <script>
+    function setBackGroundColor(){
+      document.documentElement.style
+    .setProperty('--my-variable-name', 'yellow');
+    }
+  </script>
 </head>
 
 <body class="body">
@@ -43,7 +49,7 @@
           </div>
           <div class="bluetext">Your online wardrobe</div>
           <div class="heroheading">Programmer</div>
-          <div class="callbutton">Get More</div>
+          <div class="callbutton" onclick="setBackGroundColor()">Get More</div>
         </div>
         <img src="heroimage.png" class="heroimage">
       </div>
